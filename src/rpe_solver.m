@@ -1,4 +1,6 @@
 
+% This goal of this MATLAB program is to provide a RPE solver based on a system of odes and pdes presnted in Preston et al. 2007 
+
 clc
 clear all
 
