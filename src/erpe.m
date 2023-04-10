@@ -3,7 +3,7 @@
 clear all; 
 clc;
 
-[t_inf,tb,p_inf,p_v,mul,rol,cc,lambdal,lw,alpha,rdot,ri,ro]=parameters();
+[t_inf,tb,p_inf,p_v,mul,rol,cc,lambdal,lw,alpha,rdot,ri,ro]=input();
 % k=1e-6; %time-step
 % N=10;
 % n=N+2; % number of grid points 
