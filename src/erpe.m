@@ -12,7 +12,7 @@ clc;
 % %Initial temeprature field and its first and second derivatives
 % [T,Tz,Tzz] = initial(n,z,t_inf);
 
-[h,t_r,t,r]=rk4(ri,rdot,mul,rol,p_v,p_inf,ro,cc);
+[h,t_r,t,r]=rk4_rpe(ri,rdot,mul,rol,p_v,p_inf,ro,cc);
 
 plot(t/0.001,r(1,:)/ro,LineWidth=1.5,Color='black')
 
